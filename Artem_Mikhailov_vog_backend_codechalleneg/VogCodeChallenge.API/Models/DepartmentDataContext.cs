@@ -6,15 +6,18 @@ using VogCodeChallenge.API.Repos;
 
 namespace VogCodeChallenge.API.Models
 {
-    public interface IDepartmentDataContext
+    public class DataSet
     {
-        IEnumerable<Employee> Employees();
-
+        public IEnumerable<Employee> Employees { get; set; }
+        public IEnumerable<Department> Departments { get; set; }
     }
 
-    public static class DepartmentDataContext //: IDepartmentDataContext
+    public class DepartmentDataContext 
     {
         public static IEnumerable<Employee> db = SampleRepo.Employees;
-        //switch to EF here...
+        public static IEnumerable<Employee> Employees = SampleRepo.Employees;
+        public static IEnumerable<Department> Departments = SampleRepo.Departments;
+        
     }
+    
 }

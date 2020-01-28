@@ -12,6 +12,7 @@ namespace VogCodeChallenge.API.Models
         public string LastName { get; set; }
         public string JobTitle { get; set; }
         public Address Address { get; set; }
+        public Department Department { get; set; }
 
     }
 }

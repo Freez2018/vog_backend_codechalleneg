@@ -18,19 +18,35 @@ namespace VogCodeChallenge.API.Controllers
             _departmentService = departmentService;
         }
 
-        [HttpGet]
+        [HttpGet("employees/")]
         public ActionResult<IEnumerable<EmployeeDto>> GetEmployees()
         {
-            var data= _departmentService.GetAll();
-            return Ok(data);
+            var data = _departmentService.GetAll().ToArray();
+
+            List<EmployeeDto> employees = new List<EmployeeDto>();
+            for (var i = 0; i < data.Length; i++)
+            {
+                employees.Add(new EmployeeDto
+                {
+                    Id = data[i].Id,
+                    FirstName = data[i].FirstName,
+                    LastName = data[i].LastName,
+                    JobTitle = data[i].JobTitle,
+                    Department = data[i].Department.DepartmentName,
+                    Address = data[i].Address.AddressLine_1
+                });
+            }           
+           
+            return Ok(employees);
         }
 
-        // GET api/values/5
-        [HttpGet("department/{id}")]
-        public ActionResult<string> GetEmployees(int id)
-        {
-            return "value";
-        }
-       
+        // GET https://localhost:44349/api/departments/department/1
+        [HttpGet("department/{department}")]
+        public ActionResult<string> GetEmployees(string department)
+        {             
+            var data = _departmentService.GetAll()
+                        .Where(x => x.Department.Id == department);
+            return Ok(data);
+        }       
     }
 }
