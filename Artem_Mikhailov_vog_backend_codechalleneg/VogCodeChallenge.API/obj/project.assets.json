@@ -12087,11 +12087,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Art\\source\\repos\\challange\\Artem_Mikhailov_vog_backend_codechalleneg\\VogCodeChallenge.API\\VogCodeChallenge.API.csproj",
+      "projectUniqueName": "C:\\Users\\Art\\source\\repos\\cheelenge\\vog_backend_codechalleneg\\Artem_Mikhailov_vog_backend_codechalleneg\\VogCodeChallenge.API\\VogCodeChallenge.API.csproj",
       "projectName": "VogCodeChallenge.API",
-      "projectPath": "C:\\Users\\Art\\source\\repos\\challange\\Artem_Mikhailov_vog_backend_codechalleneg\\VogCodeChallenge.API\\VogCodeChallenge.API.csproj",
+      "projectPath": "C:\\Users\\Art\\source\\repos\\cheelenge\\vog_backend_codechalleneg\\Artem_Mikhailov_vog_backend_codechalleneg\\VogCodeChallenge.API\\VogCodeChallenge.API.csproj",
       "packagesPath": "C:\\Users\\Art\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Art\\source\\repos\\challange\\Artem_Mikhailov_vog_backend_codechalleneg\\VogCodeChallenge.API\\obj\\",
+      "outputPath": "C:\\Users\\Art\\source\\repos\\cheelenge\\vog_backend_codechalleneg\\Artem_Mikhailov_vog_backend_codechalleneg\\VogCodeChallenge.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

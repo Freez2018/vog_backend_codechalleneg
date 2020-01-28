@@ -9,8 +9,7 @@ namespace VogCodeChallenge.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class DepartmentsController : ControllerBase
-    {
-        // GET api/values
+    {       
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
