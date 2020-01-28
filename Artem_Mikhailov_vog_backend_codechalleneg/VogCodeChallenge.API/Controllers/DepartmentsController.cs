@@ -3,42 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using VogCodeChallenge.API.Models.DTOs;
+using VogCodeChallenge.API.Services;
 
 namespace VogCodeChallenge.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class DepartmentsController : ControllerBase
-    {       
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+    {
+        public readonly IDepartmentService _departmentService;
+        public DepartmentsController(IDepartmentService departmentService)
         {
-            return new string[] { "value1", "value2" };
+            _departmentService = departmentService;
+        }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<EmployeeDto>> GetEmployees()
+        {
+            var data= _departmentService.GetAll();
+            return Ok(data);
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet("department/{id}")]
+        public ActionResult<string> GetEmployees(int id)
         {
             return "value";
         }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+       
     }
 }

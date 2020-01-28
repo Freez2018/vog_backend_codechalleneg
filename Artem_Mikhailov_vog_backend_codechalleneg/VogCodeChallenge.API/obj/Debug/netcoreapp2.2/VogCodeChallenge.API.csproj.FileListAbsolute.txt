@@ -12,3 +12,17 @@ C:\Users\Art\source\repos\challange\Artem_Mikhailov_vog_backend_codechalleneg\Vo
 C:\Users\Art\source\repos\challange\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.RazorTargetAssemblyInfo.cache
 C:\Users\Art\source\repos\challange\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.dll
 C:\Users\Art\source\repos\challange\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.pdb
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\bin\Debug\netcoreapp2.2\VogCodeChallenge.API.deps.json
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\bin\Debug\netcoreapp2.2\VogCodeChallenge.API.runtimeconfig.json
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\bin\Debug\netcoreapp2.2\VogCodeChallenge.API.runtimeconfig.dev.json
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\bin\Debug\netcoreapp2.2\VogCodeChallenge.API.dll
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\bin\Debug\netcoreapp2.2\VogCodeChallenge.API.pdb
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.csprojAssemblyReference.cache
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.csproj.CoreCompileInputs.cache
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.RazorAssemblyInfo.cache
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.RazorAssemblyInfo.cs
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.AssemblyInfoInputs.cache
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.AssemblyInfo.cs
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.RazorTargetAssemblyInfo.cache
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.dll
+C:\Users\Art\source\repos\cheelenge\vog_backend_codechalleneg\Artem_Mikhailov_vog_backend_codechalleneg\VogCodeChallenge.API\obj\Debug\netcoreapp2.2\VogCodeChallenge.API.pdb
