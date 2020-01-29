@@ -20,7 +20,7 @@ namespace VogCodeChallenge.API.Controllers
 
         [HttpGet("employees/")]
         public ActionResult<IEnumerable<EmployeeDto>> GetEmployees()
-        {
+        {            
             var data = _departmentService.GetAll().ToArray();
 
             List<EmployeeDto> employees = new List<EmployeeDto>();
